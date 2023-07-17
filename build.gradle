@@ -1,0 +1,7 @@
+apply plugin: 'java'
+jar {
+archiveName 'showcasedl.jar'
+}
+dependencies {
+compile fileTree(dir: 'libs' , include: '*.jar')
+}
